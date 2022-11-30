@@ -182,6 +182,22 @@ header li, a:hover {
     width: 580px;
 }
 
+/*Styling About Us Section - Display*/
+.about-us-section-3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 25px 70px 80px;
+}
+
+.about-us-3 {
+    padding: 35px 200px 10px 10px;
+}
+
+.about-us-section-3 img {
+    margin-top: -50px;
+    width: 620px;
+}
+
 /*Styling About Us Section - Text*/
 #about-us-topic {
     font-family: 'Montserrat', sans-serif;
