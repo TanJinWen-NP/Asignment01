@@ -132,3 +132,77 @@ header li, a:hover {
     transform: translateY(-2px);
 }
 /*Styling Hero Section (END) ------------------------------------------------------------*/
+
+/*Styling About Us Section (START) ------------------------------------------------------------*/
+/*Styling About Us Section - Heading Display & Text*/
+.about-us-section-header {
+    text-align: center;
+    padding: 45px 0px 10px 0px;
+}
+
+.about-us-section-header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 54px;
+    color: #617246;
+}
+
+.about-us-section-header p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+/*Styling About Us Section - Display*/
+.about-us-section-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 25px 70px 80px;
+}
+
+.about-us-1 {
+    padding: 35px 200px 10px 10px;
+}
+
+.about-us-section-1 img {
+    width: 620px;
+}
+
+/*Styling About Us Section - Display*/
+.about-us-section-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 120px 40px 60px;
+}
+
+.about-us-2 {
+    padding: 35px 50px 10px 120px;
+}
+
+.about-us-section-2 img {
+    width: 580px;
+}
+
+/*Styling About Us Section - Text*/
+#about-us-topic {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ff6484;
+    font-size: 14px;
+}
+
+#about-us-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 44px;
+    color: #617246;
+    line-height: 60px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+#about-us-description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+/*Styling About Us Section (END) ------------------------------------------------------------*/
