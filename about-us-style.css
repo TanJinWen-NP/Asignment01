@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
+/*Styling Navigation Bar (START) ------------------------------------------------------------*/
+/*Default Settings For Browers*/
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.active {
+    color:#617246;
+    font-weight: bold;
+}
+
+/*Styling Navigation Bar - Display*/
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 45px 95px;
+    position: sticky;
+    top: 0px;
+}
+
+/*Styling Navigation Bar - Logo*/
+#terraria-logo {
+    cursor: pointer;
+    margin-right: auto; 
+}
+
+header span {
+    color: #743A01;
+    font-family: 'Sofia', cursive;
+    font-size: 30px;
+}
+
+header span:hover {
+    color: black;
+}
+
+/*Styling Navigation Bar - Options*/
+header li, a {
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+header li, a:hover {
+    color: #617246;
+}
+
+.navigation-bar li {
+    display: inline-block;
+    padding: 0px 25px;
+}
+
+/*Styling Navigation Bar - Icons*/
+.fa {
+    color: #617246;
+}
+
+.fa:hover {
+    color: black;
+}
+
+#search-icon, #cart-icon {
+    cursor: pointer;
+    margin-left: 35px;
+}
+/*Styling Navigation Bar (END) ------------------------------------------------------------*/
