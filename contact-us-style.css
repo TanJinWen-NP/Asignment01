@@ -111,8 +111,44 @@ header li, a:hover {
 
 /*Styling Contacts (END) ------------------------------------------------------------*/
 
+/*Styling Branches (START) ------------------------------------------------------------*/
+.branch {
+    float: left;
+    width: 485px;
+    margin-bottom: 40px;
+    margin-top: 25px;
+    padding-left: 150px;
+}
+
+.branch h1 {
+    color:  #403c54;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.branch p {
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.branch span {
+    line-height: 45px;
+    color: #617246;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/*Styling Branches (END) ------------------------------------------------------------*/
+
 /*Styling Contact Us (START) ------------------------------------------------------------*/
 .form-section {
+    
     display: flex;
     justify-content: space-between;
     float: left;
@@ -177,41 +213,17 @@ input[type=sentence] {
     color: black;
     font-size: 12px;
 }
-/*Styling Contact Us (END) ------------------------------------------------------------*/
 
-
-.branch {
-    float: left;
-    width: 485px;
-    margin-bottom: 40px;
-    margin-top: 25px;
-    padding-left: 150px;
-}
-
-.branch h1 {
-    color:  #403c54;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-}
-
-.branch p {
-    line-height: 25px;
-    color: rgba(0, 0, 0, 0.5);
+.form a {
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 14px;
-}
-
-.branch span {
-    line-height: 45px;
+    font-size: 12px;
     color: #617246;
-    font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    font-size: 14.5px;
     cursor: pointer;
 }
+/*Styling Contact Us (END) ------------------------------------------------------------*/
 
+/*Styling Subscription (START) ------------------------------------------------------------*/
 .subscribe-section-header {
     text-align: center;
     padding: 45px 0px;
@@ -229,7 +241,7 @@ input[type=sentence] {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: bold;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
 }
 
 .subscription {
@@ -264,3 +276,5 @@ input[type=email] {
     background-color: black;
     transform: translateY(-2px);
 }
+/*Styling Subscription (END) ------------------------------------------------------------*/
+
