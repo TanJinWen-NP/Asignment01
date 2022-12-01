@@ -139,6 +139,7 @@ header li, a:hover {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 12px;
+    cursor: pointer;
 }
 /*Styling Contacts (END) ------------------------------------------------------------*/
 
