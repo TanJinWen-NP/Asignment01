@@ -108,3 +108,32 @@ header li, a:hover {
     align-items: center;
     width: 1000px;
 }
+
+.contacts {
+    float: left;
+    width: 485px;
+    text-align: center;
+    margin-bottom: 105px;
+    padding: 0px 65px;
+}
+
+.contacts h1 {
+    color:black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.contacts p {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.contacts span {
+    color: #617246;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
