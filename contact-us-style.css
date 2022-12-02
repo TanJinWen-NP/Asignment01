@@ -246,7 +246,7 @@ input[type=sentence] {
 
 .subscription {
     display: flex;
-    padding-left: 525px;
+    padding-left: 545px;
     padding-bottom: 45px;
 }
 
@@ -277,4 +277,3 @@ input[type=email] {
     transform: translateY(-2px);
 }
 /*Styling Subscription (END) ------------------------------------------------------------*/
-
