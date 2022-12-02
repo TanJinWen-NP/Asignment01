@@ -61,19 +61,26 @@ header li, a:hover {
     padding: 0px 25px;
 }
 
-/*Styling Navigation Bar - Icons*/
-.fa {
-    color: #617246;
-}
-
-.fa:hover {
-    color: black;
-}
-
-#search-icon, #cart-icon {
+.navigation-bar button {
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    background-color: #617246;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.25);
+    padding: 16px 28px;
     cursor: pointer;
-    margin-left: 35px;
 }
+
+.navigation-bar button:hover {
+    background-color: black;
+    box-shadow: 0.15px 5.5px 10.5px 0.15px rgba(0, 0, 0, 0.35);
+    transform: translateY(-2.5px);
+}
+
 /*Styling Navigation Bar (END) ------------------------------------------------------------*/
 
 /*Styling Contacts (START) ------------------------------------------------------------*/
