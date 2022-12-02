@@ -161,3 +161,59 @@ header li, a:hover {
     font-size: 18px;
 }
 /*Styling Statistics Section (END) ------------------------------------------------------------*/
+
+/*Styling About Us Section (START) ------------------------------------------------------------*/
+/*Styling About Us Section - Heading Display & Text*/
+.about-us-section-header {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.about-us-section-header span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #617246;
+    font-weight: bold;
+}
+
+.about-us-section-header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 46px;
+    color: #403c54;
+    padding-bottom: 15px;
+}
+
+.about-us-section-header p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    padding: 0px 250px;
+}
+/*Styling Choose Us Section (START) ------------------------------------------------------------*/
+.services {
+    margin-top: 100px;
+    float: left;
+    width: 500px;
+    text-align: center;
+    padding: 0px 85px 0px 85px;
+}
+
+#service-icon {
+    color: #617246;
+}
+
+/*Styling Choose Us Section - Description*/
+.services h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 15px;
+    padding: 0px 60px;
+}
+
+.services p {
+    color:#617246;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
