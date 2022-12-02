@@ -230,7 +230,7 @@ input[type=sentence] {
 }
 
 .subscribe-section-header h1 {
-    color: #617246;
+    color: #403c54;
     font-family: 'Poppins', sans-serif;
     font-size: 46px;
     padding-bottom: 15px;
@@ -260,7 +260,7 @@ input[type=email] {
 }
 
 .subscribe {
-    background-color:#403c54;
+    background-color: #617246;
     width: 10%;
     padding: 20px;
     border: none;
