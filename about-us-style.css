@@ -12,7 +12,7 @@ html {
     margin: 0;
     padding: 0;
     color: black;
-    background-color: white;
+    background-color: white;    
     box-sizing: border-box;
 }
 
@@ -178,6 +178,7 @@ header li, a:hover {
 #statistics {
     display: flex;
     justify-content: center;
+    padding-bottom: 55px;
 }
 /*Styling Our Brand (END) ------------------------------------------------------------*/
 
@@ -188,8 +189,8 @@ header li, a:hover {
 
 .team-container {
     float: left;
-    width: 430px;
-    margin: 45px 38px 100px 38px;
+    width: 360px;
+    margin: 45px 72px 100px 72px;
     padding: 12px 12px;
     box-shadow: 1px 4.5px 8.5px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
@@ -199,54 +200,59 @@ header li, a:hover {
 }
 
 .team-container:hover {
-    box-shadow: 2px 10px 18px 2px rgba(0, 0, 0, 0.275);
+    box-shadow: 1px 10px 18px 2px rgba(0, 0, 0, 0.275);
     transform: translateY(-4.5px);
 }
 
 .team-container img {
     border-radius: 15px;
     margin-bottom: 15px;
+    filter: brightness(90%);
+    box-shadow: 1px 2.5px 4.5px 1px rgba(0, 0, 0, 0.2);
 }
 
 .team-container h2 {
     font-family: 'Poppins', sans-serif;
-    font-size: 22px;
+    font-size: 26px;
     color: #403c54;
 }
 
 .team-container span {
     font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
     color: #617246;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
 
 .team-container p {
     padding-top: 2.5px;
-    padding-bottom: 8px;
+    padding-bottom: 20px;
     margin-right: 15px;
     margin-left: 15px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    color: rgba(0, 0, 0, 0.5)
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 1.5;
 }
 
 .team-header {
     text-align: center;
     margin-top: 85px;
+    padding-bottom: 30px;
 }
 
 .team-header h1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 46px;
+    font-size: 58px;
     color: #403c54;
     padding-bottom: 5px;
 }
 
 .team-header p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     color: rgba(0, 0, 0, 0.5);
     font-weight: bold;
 }
