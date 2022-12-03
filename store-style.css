@@ -27,6 +27,7 @@ header {
     padding: 45px 95px;
     position: sticky;
     top: 0px;
+    z-index: 1;
 }
 
 /*Styling Navigation Bar - Logo*/
@@ -86,9 +87,21 @@ header li, a:hover {
 
 /*Styling Navigation Bar (END) ------------------------------------------------------------*/
 
+/*Styling Products (START) ------------------------------------------------------------*/
+#filter {
+    margin-left: 520px;
+    color:#617246;
+}
+
+#filter span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.35);
+    padding-right: 10px;
+}
+
 .product-section-header {
-    text-align: center;
-    padding: 0px 0px 25px 0px;
+    padding: 0px 0px 25px 110px;
 }
 
 .product-section-header h1 {
@@ -164,4 +177,27 @@ header li, a:hover {
     color:#617246;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
 }
+
+.product-container button {
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 8px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    background-color: #617246;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.25);
+    padding: 16px 120px;
+    cursor: pointer;
+    transition: 300ms ease;
+    margin-top: 25px;
+}
+
+.product-container button:hover {
+    background-color: black;
+    box-shadow: 0.15px 5.5px 10.5px 0.15px rgba(0, 0, 0, 0.35);
+    transform: translateY(-2.5px);
+}
+/*Styling Products (END) ------------------------------------------------------------*/
 
