@@ -86,34 +86,35 @@ header li, a:hover {
 /*Styling Contacts (START) ------------------------------------------------------------*/
 .contact-us-section-header {
     text-align: center;
-    padding: 45px 0px;
+    padding: 3rem 0px;
 }
 
 .contact-us-section-header span {
     color: #617246;
     font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: bold;
 }
 
 .contact-us-section-header h1 {
     color: #403c54;
     font-family: 'Poppins', sans-serif;
-    font-size: 46px;
-    padding-bottom: 15px;
+    font-size: 3rem;
+    padding-bottom: 1rem;
 }
 
 .contact-us-section-header p {
     color: rgba(0, 0, 0, 0.5);
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 0.75rem;
     font-weight: bold;
 }
 
 .contact-us-image img {
-    margin-top: 50px;
+    margin-top: 3.125rem;
     align-items: center;
-    width: 720px;
+    width: 100%;
+    height: 500px;
 }
 
 /*Styling Contacts (END) ------------------------------------------------------------*/
@@ -121,82 +122,82 @@ header li, a:hover {
 /*Styling Branches (START) ------------------------------------------------------------*/
 .branch {
     float: left;
-    width: 485px;
-    margin-bottom: 40px;
-    margin-top: 25px;
-    padding-left: 150px;
+    width: 33.33%;
+    margin-bottom: 2.5rem;
+    margin-top: 1.5rem;
+    padding-left: 9.25rem;
 }
 
 .branch h1 {
     color:  #403c54;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 1.35rem;
 }
 
 .branch p {
-    line-height: 25px;
+    line-height: 1.5rem;
     color: rgba(0, 0, 0, 0.5);
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 .branch span {
-    line-height: 45px;
+    line-height: 2.85rem;
     color: #617246;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 0.75rem;
     cursor: pointer;
 }
 
 /*Styling Branches (END) ------------------------------------------------------------*/
 
 /*Styling Contact Us (START) ------------------------------------------------------------*/
-.form-section {
-    
+.form-section { 
     display: flex;
     justify-content: space-between;
     float: left;
-    margin-top: 40px;
-    margin-bottom: 85px;
+    margin-top: 2.5rem;
+    margin-bottom: 5.25rem;
+    padding-right: 4rem;
 }
 
 .form {
-    padding: 50px 120px 50px 160px;
+    padding: 3.125rem 8.25rem 3.125rem 8.75rem;
 }
 
 .form-section img {
-    margin-left: 60px;
-    margin-top: 25px;
-    width: 520px;
+    margin-top: 8rem;
+    width: 50%;
+    height: 550px;
 }
 
 input[type=text], input[type=sentence], input[type=password], input[type=tel] {
-    margin: 15px 0 20px 0;
+    margin: 1rem 0 1.25rem 0;
     width: 100%;
-    padding: 15px;
+    padding: 1rem;
     border: none;
-    border-radius: 10px;    
+    border-radius: 0.8rem;    
     box-shadow: 1px 2.5px 5px 1px rgba(0, 0, 0, 0.25);
 }
 
 input[type=sentence] {
-    padding: 45px;
+    padding: 2.85rem;
 }
 
 .join-us {
-    margin-top: 15px;
+    margin-top: 1rem;
     background-color:#617246;
     width: 100%;
-    padding: 15px;
+    padding: 1rem;
     border: none;
-    border-radius: 10px;
+    border-radius: 0.8rem;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
     color: white;
-    font-size: 12px;
+    font-size: 0.65rem;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -208,22 +209,22 @@ input[type=sentence] {
 .form h1 {
     font-family: 'Poppins', sans-serif;
     color:#403c54;
-    font-size: 36px;
+    font-size: 2.25rem;
 }
 
 .actual-form {
-    padding-bottom: 35px;
+    padding-bottom: 2.25rem;
 }
 
 .form p {
     font-family: 'Montserrat', sans-serif;
     color: black;
-    font-size: 12px;
+    font-size: 0.65rem;
 }
 
 .form a {
     font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
+    font-size: 0.65rem;
     color: #617246;
     font-weight: bold;
     cursor: pointer;
@@ -232,50 +233,50 @@ input[type=sentence] {
 
 /*Styling Subscription (START) ------------------------------------------------------------*/
 .subscribe-section-header {
-    text-align: center;
-    padding: 45px 0px;
+    margin-left: 9.15rem;
+    padding: 2.95rem 0rem;
 }
 
 .subscribe-section-header h1 {
     color: #403c54;
     font-family: 'Poppins', sans-serif;
-    font-size: 46px;
-    padding-bottom: 15px;
+    font-size: 2.875rem;
+    padding-bottom: 1rem;
 }
 
 .subscribe-section-header p {
     color: rgba(0, 0, 0, 0.5);
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 0.8rem;
     font-weight: bold;
-    padding-bottom: 5px;
+    padding-bottom: 0.3125rem;
 }
 
 .subscription {
     display: flex;
-    padding-left: 545px;
-    padding-bottom: 45px;
+    padding-left: 9.175rem;
+    padding-bottom: 2.8125rem;
 }
 
 input[type=email] {
     width: 30%;
-    padding: 15px;
+    padding: 1rem;
     border: none;
-    border-radius: 10px;    
+    border-radius: 0.625rem;    
     box-shadow: 1px 2.5px 5px 1px rgba(0, 0, 0, 0.25);
-    margin-right: 10px;
+    margin-right: 0.625rem;
 }
 
 .subscribe {
     background-color: #617246;
     width: 10%;
-    padding: 20px;
+    padding: 1.25rem;
     border: none;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
     color: white;
-    font-size: 12px;
+    font-size: 0.65rem;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.25);
 }
 
