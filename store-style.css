@@ -145,6 +145,10 @@ header li, a:hover {
     margin-left: 10px;
 }
 
+#glow span {
+    margin-right: 180px;
+}
+
 .product-container p {
     padding-top: 2.5px;
     padding-bottom: 5px;
