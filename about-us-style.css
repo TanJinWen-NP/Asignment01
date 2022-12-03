@@ -99,33 +99,33 @@ header li, a:hover {
 }
 
 .about-us-section-header {
-    padding: 100px 150px 0px 90px;
+    padding: 5rem 6.375rem 0rem 5.5rem;
 }
 
 .about-us img {
-    width: 565px;
+    width: 100%;
+    height: 300px;
 }
 
 .about-us-section-header span {
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 0.8rem;
     color: #617246;
     font-weight: bold;
 }
 
 .about-us-section-header h1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 58px;
+    font-size: 3.25rem;
     color: #403c54;
-    padding-top: 10px;
+    padding-top: 0.625rem;
 }
 
 .about-us-section-header p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 0.65rem;
     color: rgba(0, 0, 0, 0.5);
     font-weight: bold;
-    padding-bottom: 30px;
     line-height: 1.5;
 }
 /*Styling Our Story (END) ------------------------------------------------------------*/
@@ -133,42 +133,42 @@ header li, a:hover {
 /*Styling Our Brand (START) ------------------------------------------------------------*/
 .people-statistics-header {
     text-align: center;
-    padding: 70px 380px 25px 380px;
+    padding: 4.375rem 18rem 1.5rem 18rem;
 }
 
 .people-statistics-header span {
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #617246;
     font-weight: bold;
 }
 
 .people-statistics-header h1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 58px;
+    font-size: 3.25rem;
     color: #403c54;
 }
 
 .people-statistics-header p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: rgba(0, 0, 0, 0.5);
     font-weight: bold;
-    padding: 0px 30px 15px 30px;
+    padding: 0px 1.75rem 1rem 1.75rem;
     line-height: 1.5;
 }
 
 .people-statistics {
-    width: 320px;
+    width: 33.33%;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 3.25rem;
 }
 
 .people-statistics h1 {
     color:#403c54;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 3rem;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.15);
 }
 
@@ -176,80 +176,27 @@ header li, a:hover {
     color: #617246;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 #statistics {
     display: flex;
     justify-content: center;
-    padding-bottom: 55px;
+    padding-bottom: 3.45rem;
 }
 /*Styling Our Brand (END) ------------------------------------------------------------*/
-/*Styling Our Goals (START) ------------------------------------------------------------*/
-.our-goal {
-    display: flex;
-    justify-content: space-between;
-    padding: 100px 40px 85px 140px;
-}
-
-.our-goal-section-header {
-    padding: 25px 140px 0px 0px;
-}
-
-.our-goal img {
-    width: 750px;
-    padding-right: 120px;
-}
-
-.our-goal-section-header h1 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 58px;
-    color: #617246;
-    padding-top: 10px;
-}
-
-.our-goal-section-header p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    color: rgba(0, 0, 0, 0.5);
-    font-weight: bold;
-    padding-bottom: 20px;
-    line-height: 1.5;
-}
-
-.goals-section .goals {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    color: rgba(0, 0, 0, 0.5);
-    font-weight: bold;
-    padding-bottom: 5px;
-    list-style: none;
-}
-
-.goals-section {
-    padding-bottom: 15px;
-}
-
-.our-goal-section-header span {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    color: #617246;
-    font-weight: bold;
-}
-
-/*Styling Our Goals (END) ------------------------------------------------------------*/
 /*Styling Team Section (START) ------------------------------------------------------------*/
 .team-section {
-    padding-bottom: 60px;
+    padding-bottom: 5rem;
 }
 
 .team-container {
     float: left;
-    width: 360px;
-    margin: 45px 72px 100px 72px;
-    padding: 12px 12px;
+    width: 22%;
+    margin: 0 5.65%;
+    padding: 0.75rem 0.75rem;
     box-shadow: 1px 4.5px 8.5px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
+    border-radius: 1.25rem;
     text-align: center;
     transition: 200ms ease;
     cursor: pointer;
@@ -261,63 +208,64 @@ header li, a:hover {
 }
 
 .team-container img {
-    border-radius: 15px;
-    margin-bottom: 15px;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
     filter: brightness(90%);
     box-shadow: 1px 2.5px 4.5px 1px rgba(0, 0, 0, 0.2);
 }
 
 .team-container h2 {
     font-family: 'Poppins', sans-serif;
-    font-size: 26px;
+    font-size: 1.5rem;
     color: #403c54;
 }
 
 .team-container span {
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 0.8rem;
     font-weight: bold;
     color: #617246;
-    margin-top: 30px;
-    margin-bottom: 25px;
+    margin-top: 1.8rem;
+    margin-bottom: 1.5rem;
 }
 
 .team-container p {
-    padding-top: 2.5px;
-    padding-bottom: 20px;
-    margin-right: 15px;
-    margin-left: 15px;
+    padding-top: 0.15rem;
+    padding-bottom: 1.25rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 0.8rem;
     color: rgba(0, 0, 0, 0.5);
     line-height: 1.5;
 }
 
+@media screen and (max-width: 650px) {
+    .team-container {
+      width: 100%;
+      display: block;
+    }
+  }
+
 .team-header {
     text-align: center;
-    margin-top: 85px;
-    padding-bottom: 30px;
+    margin-top: 5.25rem;
+    padding-bottom: 4rem;
 }
 
 .team-header h1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 58px;
+    font-size: 3.25rem;
     color: #403c54;
-    padding-bottom: 5px;
+    padding-bottom: 0.3125rem;
 }
 
 .team-header p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     color: rgba(0, 0, 0, 0.5);
     font-weight: bold;
 }
-
-.social-media-icons .fa {
-    padding-top: 10px;
-    cursor: pointer;
-}
-
 /*Styling Team Section (END) ------------------------------------------------------------*/
 
 
