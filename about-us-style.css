@@ -185,6 +185,7 @@ header li, a:hover {
     padding-bottom: 55px;
 }
 /*Styling Our Brand (END) ------------------------------------------------------------*/
+/*Styling Our Goals (START) ------------------------------------------------------------*/
 .our-goal {
     display: flex;
     justify-content: space-between;
@@ -235,7 +236,7 @@ header li, a:hover {
     color: #617246;
     font-weight: bold;
 }
-
+/*Styling Our Goals (END) ------------------------------------------------------------*/
 /*Styling Team Section (START) ------------------------------------------------------------*/
 .team-section {
     padding-bottom: 60px;
