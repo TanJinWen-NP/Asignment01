@@ -87,6 +87,7 @@ header li, a:hover {
 }
 
 /*Styling Navigation Bar (END) ------------------------------------------------------------*/
+/*Styling Our Story (START) ------------------------------------------------------------*/
 .about-us {
     display: flex;
     justify-content: space-between;
@@ -123,7 +124,9 @@ header li, a:hover {
     padding-bottom: 30px;
     line-height: 1.5;
 }
+/*Styling Our Story (END) ------------------------------------------------------------*/
 
+/*Styling Our Brand (START) ------------------------------------------------------------*/
 .people-statistics-header {
     text-align: center;
     padding: 70px 380px 25px 380px;
@@ -176,8 +179,9 @@ header li, a:hover {
     display: flex;
     justify-content: center;
 }
+/*Styling Our Brand (END) ------------------------------------------------------------*/
 
-/*Styling Team Section (END) ------------------------------------------------------------*/
+/*Styling Team Section (START) ------------------------------------------------------------*/
 .team-section {
     padding-bottom: 60px;
 }
@@ -246,6 +250,7 @@ header li, a:hover {
     color: rgba(0, 0, 0, 0.5);
     font-weight: bold;
 }
+/*Styling Team Section (END) ------------------------------------------------------------*/
 
 
 
