@@ -6,6 +6,10 @@ html {
     scroll-behavior: smooth;
 }
 
+.fa {
+    color:#617246;
+}
+
 /*Styling Navigation Bar (START) ------------------------------------------------------------*/
 /*Default Settings For Browers*/
 * {
@@ -181,6 +185,56 @@ header li, a:hover {
     padding-bottom: 55px;
 }
 /*Styling Our Brand (END) ------------------------------------------------------------*/
+.our-goal {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 40px 85px 140px;
+}
+
+.our-goal-section-header {
+    padding: 25px 140px 0px 0px;
+}
+
+.our-goal img {
+    width: 750px;
+    padding-right: 120px;
+}
+
+.our-goal-section-header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 58px;
+    color: #617246;
+    padding-top: 10px;
+}
+
+.our-goal-section-header p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+
+.goals-section .goals {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    padding-bottom: 5px;
+    list-style: none;
+}
+
+.goals-section {
+    padding-bottom: 15px;
+}
+
+.our-goal-section-header span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #617246;
+    font-weight: bold;
+}
 
 /*Styling Team Section (START) ------------------------------------------------------------*/
 .team-section {
