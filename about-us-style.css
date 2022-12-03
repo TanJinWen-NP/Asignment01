@@ -278,7 +278,7 @@ header li, a:hover {
     font-weight: bold;
     color: #617246;
     margin-top: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .team-container p {
@@ -311,6 +311,12 @@ header li, a:hover {
     color: rgba(0, 0, 0, 0.5);
     font-weight: bold;
 }
+
+.social-media-icons .fa {
+    padding-top: 10px;
+    cursor: pointer;
+}
+
 /*Styling Team Section (END) ------------------------------------------------------------*/
 
 
