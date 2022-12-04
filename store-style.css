@@ -1,3 +1,4 @@
+/*Importing Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
@@ -5,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 /*Styling Navigation Bar (START) ------------------------------------------------------------*/
-/*Default Settings For Browers*/
+/*Changing Default Settings For Browers*/
 * {
     margin: 0;
     padding: 0;
@@ -19,8 +20,8 @@
     font-weight: bold;
 }
 
-html {
-    scroll-behavior: smooth;
+.fa {
+    color:#617246;
 }
 
 /*Styling Navigation Bar - Display*/
@@ -88,14 +89,15 @@ header li, a:hover {
     box-shadow: 0.15px 5.5px 10.5px 0.15px rgba(0, 0, 0, 0.35);
     transform: translateY(-2.5px);
 }
-
 /*Styling Navigation Bar (END) ------------------------------------------------------------*/
 
 /*Styling Products (START) ------------------------------------------------------------*/
+/*Styling Products - Header Display*/
 .product-section-header {
     padding: 0px 0px 1.25rem 6.875rem;
 }
 
+/*Styling Products - Header*/
 .product-section-header h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 4.125rem;
@@ -110,6 +112,7 @@ header li, a:hover {
     margin-bottom: 0.65rem;
 }
 
+/*Styling Products - Container Display*/
 .product-container {
     float: left;
     width: 19.7%;
@@ -125,6 +128,7 @@ header li, a:hover {
     transform: translateY(-6.5px);
 }
 
+/*Styling Products - Product Image*/
 .product-container img {
     border-radius: 1rem;
     margin-bottom: 1rem;
@@ -133,6 +137,7 @@ header li, a:hover {
     height: 18.75rem;
 }
 
+/*Styling Products - Product Description*/
 .product-container h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
@@ -185,6 +190,7 @@ header li, a:hover {
     transform: translateY(-2.5px);
 }
 
+/*Attempt At Responsiveness*/
 @media screen and (max-width: 650px) {
     .product-container {
       width: 100%;
