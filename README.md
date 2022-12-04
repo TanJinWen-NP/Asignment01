@@ -34,11 +34,10 @@ HTML and CSS was used only.
 
 ## Testing 
 Contact Form 
-- When trying to submit both forms, elements did not disappear.
-
-Looks fine for most laptop and desktop screens, but not for mobile view/much smaller screens.
-
-Elements are not responding even with media queries and responsive units.
+* When trying to submit both forms, elements did not disappear.
+* Looks fine for most laptop and desktop screens, but not for mobile view/much smaller screens.
+* Elements are not responding even with media queries and responsive units.
+* Ignore duplicate ID, necessary for styling.
 
 ## Credits 
 
