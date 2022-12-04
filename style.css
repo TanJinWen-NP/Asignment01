@@ -25,6 +25,7 @@ header {
     padding: 45px 95px;
     position: sticky;
     top: 0px;
+    z-index: 1;
 }
 
 /*Styling Navigation Bar - Logo*/
@@ -81,26 +82,6 @@ header li, a:hover {
     box-shadow: 0.15px 5.5px 10.5px 0.15px rgba(0, 0, 0, 0.35);
     transform: translateY(-2.5px);
 }
-
-@media (max-width: 477px) {
-    #terraria-logo {
-        display: none;
-    }
-
-    header {
-        padding: 20px 25px;
-    }
-
-    header li, a {
-        font-size: 7px;
-    }
-
-    .navigation-bar button {
-        font-size: 7px;
-        padding: 6px 10px;
-    }
-}
-
 /*Styling Navigation Bar (END) ------------------------------------------------------------*/
 
 /*Styling Hero Section (START) ------------------------------------------------------------*/
