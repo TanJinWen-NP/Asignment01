@@ -1,28 +1,25 @@
+/*Importing Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
 
-html {
-    scroll-behavior: smooth;
-}
-
-.fa {
-    color:#617246;
-}
-
 /*Styling Navigation Bar (START) ------------------------------------------------------------*/
-/*Default Settings For Browers*/
+/*Changing Default Settings For Browers*/
 * {
     margin: 0;
     padding: 0;
     color: black;
-    background-color: white;    
+    background-color: white;
     box-sizing: border-box;
 }
 
 .active {
     color:#617246;
     font-weight: bold;
+}
+
+.fa {
+    color:#617246;
 }
 
 /*Styling Navigation Bar - Display*/
@@ -33,6 +30,7 @@ header {
     padding: 45px 95px;
     position: sticky;
     top: 0px;
+    z-index: 1;
 }
 
 /*Styling Navigation Bar - Logo*/
@@ -90,7 +88,9 @@ header li, a:hover {
     transform: translateY(-2.5px);
 }
 /*Styling Navigation Bar (END) ------------------------------------------------------------*/
+
 /*Styling Our Story (START) ------------------------------------------------------------*/
+/*Styling Our Story - Display*/
 .about-us {
     display: flex;
     justify-content: space-between;
@@ -101,11 +101,13 @@ header li, a:hover {
     padding: 5rem 6.375rem 0rem 5.5rem;
 }
 
+/*Styling Our Story - Image*/ 
 .about-us img {
     width: 100%;
     height: 300px;
 }
 
+/*Styling Our Story - Text*/
 .about-us-section-header span {
     font-family: 'Montserrat', sans-serif;
     font-size: 0.8rem;
@@ -128,12 +130,14 @@ header li, a:hover {
     line-height: 1.5;
 }
 /*Styling Our Story (END) ------------------------------------------------------------*/
-/*Styling Our Brand (START) ------------------------------------------------------------*/
+/*Styling People Statistics (START) ------------------------------------------------------------*/
+/*Styling People Statistics - Display*/
 .people-statistics-header {
     text-align: center;
     padding: 4.375rem 18rem 1.5rem 18rem;
 }
 
+/*Styling People Statistics - Header*/
 .people-statistics-header span {
     font-family: 'Montserrat', sans-serif;
     font-size: 0.875rem;
@@ -156,12 +160,14 @@ header li, a:hover {
     line-height: 1.5;
 }
 
+/*Styling People Statistics - Display*/
 .people-statistics {
     width: 33.33%;
     text-align: center;
     margin-top: 3.25rem;
 }
 
+/*Styling People Statistics - Description*/
 .people-statistics h1 {
     color:#403c54;
     font-family: 'Poppins', sans-serif;
@@ -184,10 +190,12 @@ header li, a:hover {
 }
 /*Styling Our Brand (END) ------------------------------------------------------------*/
 /*Styling Team Section (START) ------------------------------------------------------------*/
+/*Styling Team Section - Display*/
 .team-section {
     padding-bottom: 5rem;
 }
 
+/*Styling Team Section - Card*/
 .team-container {
     float: left;
     width: 22%;
@@ -205,6 +213,7 @@ header li, a:hover {
     transform: translateY(-4.5px);
 }
 
+/*Styling Team Section - Image*/
 .team-container img {
     border-radius: 1rem;
     margin-bottom: 1rem;
@@ -212,6 +221,7 @@ header li, a:hover {
     box-shadow: 1px 2.5px 4.5px 1px rgba(0, 0, 0, 0.2);
 }
 
+/*Styling Team Section - Description*/
 .team-container h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
@@ -238,6 +248,7 @@ header li, a:hover {
     line-height: 1.5;
 }
 
+/*Attempt At Responsiveness*/
 @media screen and (max-width: 650px) {
     .team-container {
       width: 100%;
@@ -245,6 +256,7 @@ header li, a:hover {
     }
   }
 
+  /*Styling Team Section - Header*/
 .team-header {
     text-align: center;
     margin-top: 5.25rem;
