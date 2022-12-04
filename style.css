@@ -1,9 +1,10 @@
+/*Importing Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
 
 /*Styling Navigation Bar (START) ------------------------------------------------------------*/
-/*Default Settings For Browers*/
+/*Changing Default Settings For Browers*/
 * {
     margin: 0;
     padding: 0;
@@ -15,6 +16,10 @@
 .active {
     color:#617246;
     font-weight: bold;
+}
+
+.fa {
+    color:#617246;
 }
 
 /*Styling Navigation Bar - Display*/
@@ -89,32 +94,32 @@ header li, a:hover {
 .hero-section {
     display: flex;
     justify-content: space-between;
-    padding: 40px 60px 50px 130px;
+    padding: 40px 60px 80px 130px;
 }
 
-/*Styling Hero - Display*/
 .hero {
     padding: 50px 0px 0px 0px;
+    width: 580px;
 }
 
 /*Styling Hero - Tag Line & Description*/
 .hero-section h1 {
     color: #617246;
-    font-size: 4rem;
+    font-size: 3.6rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    line-height: 90px;
 }
 
 .hero-section p {
-    font-size: 1rem;
+    font-size: 0.85rem;
     font-family: 'Montserrat', sans-serif;
     margin-top: 3%;
 }
 
 /*Styling Hero - Image*/
 .hero-section img {
-    height: 495px;
+    width: 55%;
+    height: 420px;
 }
 
 /*Styling Hero - Button*/
@@ -131,11 +136,12 @@ header li, a:hover {
     background-color: #617246;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.25);
     padding: 18px 28px;
+    transition: 300ms ease;
 }
 
 .hero-section button:hover {
     background-color: black;
-    transform: translateY(-2px);
+    transform: translateY(-5px);
 }
 /*Styling Hero Section (END) ------------------------------------------------------------*/
 
@@ -150,7 +156,7 @@ header li, a:hover {
 
 /*Styling Statistics Section - Description*/
 .statistics h1 {
-    color: black;
+    color: #617246;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 3rem;
@@ -163,8 +169,8 @@ header li, a:hover {
 }
 /*Styling Statistics Section (END) ------------------------------------------------------------*/
 
-/*Styling About Us Section (START) ------------------------------------------------------------*/
-/*Styling About Us Section - Heading Display & Text*/
+/*Styling Testimonial Section (START) ------------------------------------------------------------*/
+/*Styling Testimonial Section - Heading Display & Text*/
 .about-us-section-header {
     text-align: center;
 }
@@ -191,6 +197,7 @@ header li, a:hover {
     padding: 0px 250px;
 }
 
+/*Styling Testimonial Section - Cards*/
 .testimonial-section-header {
     text-align: center;
     padding: 60px 0px;
@@ -207,10 +214,12 @@ header li, a:hover {
     font-size: 12px;
 }
 
+/*Styling Testimonial Section - Ratings*/
 #star {
     color:#ffe234;
 }
 
+/*Styling Testimonial Section - Customer Reviews*/
 .testimonials-text {
     display: flex;
     align-items: center;
@@ -237,6 +246,7 @@ header li, a:hover {
     box-shadow: 1px 1px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
+/*Styling Testimonial Section - Customer Details*/
 .customer-name {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
@@ -262,6 +272,7 @@ header li, a:hover {
     opacity: 60%;
 }
 
+/*Styling Testimonial Section - Profile*/
 .customer-avatar {
     height: 80px;
     width: 90px;
@@ -271,12 +282,16 @@ header li, a:hover {
     height: 100%;
     width: 100%
 }
+/*Styling Testimonial Section (END) ------------------------------------------------------------*/
 
+/*Styling Partnership (START) ------------------------------------------------------------*/
+/*Styling Partnership - Display*/
 .partnership {
     margin-top: 100px;
     text-align: center;
 }
 
+/*Styling Partnership - Heading*/
 .partnership-heading {
     font-family: 'Poppins', sans-serif;
     font-size: 44px;
@@ -288,6 +303,7 @@ header li, a:hover {
     font-size: 12px;
 }
 
+/*Styling Partnership - Image*/
 .partnership img {
     display: block;
     margin-left: auto;
@@ -297,9 +313,10 @@ header li, a:hover {
     width: 60%;
     margin-bottom: 10%;
 }
+/*Styling Partnership (END) ------------------------------------------------------------*/
 
-
-
+/*Styling Footer (START) ------------------------------------------------------------*/
+/*Styling Footer - Navigation Options*/
 footer ul {
     margin-top: 0;
     padding: 0;
@@ -328,6 +345,7 @@ footer ul {
     background-color: #e3e3e3;
 }
 
+/*Styling Footer - Icons & Names*/
 .social-media-icons {
     text-align: center;
     background-color: #e3e3e3;
@@ -357,3 +375,4 @@ footer ul {
     margin-bottom: 2rem;
     margin-top: 1rem;
 }
+/*Styling Footer (END) ------------------------------------------------------------*/
