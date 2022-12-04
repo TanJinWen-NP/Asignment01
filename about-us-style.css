@@ -90,6 +90,25 @@ header li, a:hover {
     transform: translateY(-2.5px);
 }
 
+@media (max-width: 477px) {
+    #terraria-logo {
+        display: none;
+    }
+
+    header {
+        padding: 20px 25px;
+    }
+
+    header li, a {
+        font-size: 7px;
+    }
+
+    .navigation-bar button {
+        font-size: 7px;
+        padding: 6px 10px;
+    }
+}
+
 /*Styling Navigation Bar (END) ------------------------------------------------------------*/
 /*Styling Our Story (START) ------------------------------------------------------------*/
 .about-us {
