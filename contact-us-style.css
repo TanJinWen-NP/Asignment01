@@ -80,14 +80,105 @@ header li, a:hover {
     box-shadow: 0.15px 5.5px 10.5px 0.15px rgba(0, 0, 0, 0.35);
     transform: translateY(-2.5px);
 }
+/*Styling Navigation Bar (END) ------------------------------------------------------------*//*Importing Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
+/*Styling Navigation Bar (START) ------------------------------------------------------------*/
+/*Changing Default Settings For Browers*/
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.active {
+    color:#617246;
+    font-weight: bold;
+}
+
+.fa {
+    color:#617246;
+}
+
+/*Styling Navigation Bar - Display*/
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 45px 95px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+/*Styling Navigation Bar - Logo*/
+#terraria-logo {
+    cursor: pointer;
+    margin-right: auto; 
+}
+
+header span {
+    color: #743A01;
+    font-family: 'Sofia', cursive;
+    font-size: 30px;
+}
+
+header span:hover {
+    color: black;
+}
+
+/*Styling Navigation Bar - Options*/
+header li, a {
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+header li, a:hover {
+    color: #617246;
+}
+
+.navigation-bar li {
+    display: inline-block;
+    padding: 0px 25px;
+}
+
+.navigation-bar button {
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    background-color: #617246;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.25);
+    padding: 16px 28px;
+    cursor: pointer;
+    transition: 200ms ease;
+}
+
+.navigation-bar button:hover {
+    background-color: black;
+    box-shadow: 0.15px 5.5px 10.5px 0.15px rgba(0, 0, 0, 0.35);
+    transform: translateY(-2.5px);
+}
 /*Styling Navigation Bar (END) ------------------------------------------------------------*/
 
 /*Styling Contacts (START) ------------------------------------------------------------*/
+/*Styling Contacts - Display*/
 .contact-us-section-header {
     text-align: center;
     padding: 3rem 0px;
 }
 
+/*Styling Contacts - Header*/
 .contact-us-section-header span {
     color: #617246;
     font-family: 'Montserrat', sans-serif;
@@ -109,16 +200,17 @@ header li, a:hover {
     font-weight: bold;
 }
 
+/*Styling Contacts - Image*/
 .contact-us-image img {
     margin-top: 3.125rem;
     align-items: center;
     width: 100%;
     height: 500px;
 }
-
 /*Styling Contacts (END) ------------------------------------------------------------*/
 
 /*Styling Branches (START) ------------------------------------------------------------*/
+/*Styling Branch - Display*/
 .branch {
     float: left;
     width: 33.33%;
@@ -127,6 +219,7 @@ header li, a:hover {
     padding-left: 9.25rem;
 }
 
+/*Styling Branch - Header*/
 .branch h1 {
     color:  #403c54;
     font-family: 'Poppins', sans-serif;
@@ -153,7 +246,8 @@ header li, a:hover {
 
 /*Styling Branches (END) ------------------------------------------------------------*/
 
-/*Styling Contact Us (START) ------------------------------------------------------------*/
+/*Styling Contact US (START) ------------------------------------------------------------*/
+/*Styling Contact Us - Display*/
 .form-section { 
     display: flex;
     justify-content: space-between;
@@ -167,12 +261,14 @@ header li, a:hover {
     padding: 3.125rem 8.25rem 3.125rem 8.75rem;
 }
 
+/*Styling Contact Us - Image*/
 .form-section img {
     margin-top: 8rem;
     width: 50%;
     height: 550px;
 }
 
+/*Styling Contact Us - Inputs*/
 input[type=text], input[type=sentence], input[type=password], input[type=tel] {
     margin: 1rem 0 1.25rem 0;
     width: 100%;
@@ -231,11 +327,13 @@ input[type=sentence] {
 /*Styling Contact Us (END) ------------------------------------------------------------*/
 
 /*Styling Subscription (START) ------------------------------------------------------------*/
+/*Styling Subscription - Display*/
 .subscribe-section-header {
     margin-left: 9.15rem;
     padding: 2.95rem 0rem;
 }
 
+/*Styling Subscription - Header*/
 .subscribe-section-header h1 {
     color: #403c54;
     font-family: 'Poppins', sans-serif;
@@ -251,6 +349,7 @@ input[type=sentence] {
     padding-bottom: 0.3125rem;
 }
 
+/*Styling Subscription - Display & Inputs*/
 .subscription {
     display: flex;
     padding-left: 9.175rem;
