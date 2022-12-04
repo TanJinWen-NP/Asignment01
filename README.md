@@ -1,4 +1,4 @@
-# Assignment01
+# Terraria
 
 Terraria is the state of the art terrarium company. We cater to anyone looking for terrariums and want to spread the joy and affordability of our products. A completely original design and brand aimed to bring nature to the desks of its customers. With a wide array of terrariums consisting of exotic life, miniature designs and unique plants. A niche company blasting through the markets and its competitors with affordable prices and incredibly aesthetic terrariums. A passionate and experienced team with their leaders spear-heading the newest designs and development. Combining plants, soils and features from different regions, it is the first company to do so. Unique, affordable and aesthetic, perfect for any occasion to elevate your room and your life!
 
